@@ -76,8 +76,8 @@ function callback() {
     return this.nodeType === 3;
   }).remove();
   $('.correctBracket').remove();
-  $('#statsDiv').prepend(match[1]);
-  $('#statsDiv').append(match[2] - match[1]);
+  $('#statsDiv').prepend(match[2] - match[1]);
+  $('#statsDiv').append(match[1]);
   $('#statsDiv').append('<span class=\'correctBracket\'>(' + match[3] + '%)</span>');
   var percentage = match[3];
   $('#statsGood').css('width', percentage + 'px');
