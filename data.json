@@ -1,0 +1,278 @@
+{
+  "Fragen":[
+    {
+      "Q":"Mit Hilfe einer Scanline kann man die Schnitte von n Liniensegmenten in n log n Zeit erkennen.",
+      "A":0,
+      "I":"(Seite 42-> O((n+k) log n)"
+    },
+    {
+      "Q":"Die schwerste Kante eines Graphen ist nie im minimalen Spannbaum vertreten.",
+      "A":0
+    },
+    {
+      "Q":"Man kann in n log n Zeit entscheiden, ob sich Kreise schneiden.",
+      "A":1
+    },
+    {
+      "Q":"Zusammenhängende Graphen mit n Knoten besitzen mindestens n-1 Kanten",
+      "A":1
+    },
+    {
+      "Q":"Zwei Liniensegmente schneiden sich genau dann, wenn sich ihre x- und y-Intervalle überlagern.",
+      "A":0
+    },
+    {
+      "Q":"Jede planare Triangulierung ist 3-färbbar.",
+      "A":0,
+      "I":"wiki: Der Vier-Farben-Satz besagt, dass sich planare Graphen mit 4 Farben färben lassen. Dreiecksfreie planare Graphen sind 3-färbbar."
+    },
+    {
+      "Q":"Jeder Algorithmus zur Detektion der konvexen Hülle einer Punktmenge in der Ebene besitzt eine Worstcase-Laufzeit von Omega(n log n)",
+      "A":1,
+      "I":"(Seite 51)"
+    },
+    {
+      "Q":"Bipartite Graphen sind 2-färbbar",
+      "A":1
+    },
+    {
+      "Q":"die optimale Dreieckszerlegung eines Polygons ist immer eindeutig",
+      "A":0
+    },
+    {
+      "Q":"Die Darstellung planarer Graphen kann Kreuzungen enthalten.",
+      "A":1
+    },
+    {
+      "Q":"Ein randomisierter Suchbaum kann online aufgebaut werden, ohne den Erwartungswert für die Laufzeit zu verschlechtern.",
+      "A":1,
+      "I":"(Seite 33)"
+    },
+    {
+      "Q":"Die optimale Triangulierung von simplen, nicht notwendigerweise konvexen Polygonen kann in polynomialer Zeit gefunden werden.",
+      "A":1,
+      "I":"(Seite 55)"
+    },
+    {
+      "Q":"In O(n log n) Zeit kann für n Kreisschreiben festgestellt werden, ob Überlappungen vorliegen.",
+      "A":1,
+      "I":"(Seite 43)"
+    },
+    {
+      "Q":"Für ein konvexes n-seitiges Polygon gibt es Omega(2^n) verschiedene Triangulierungen.",
+      "A":1,
+      "I":"(Omega(2.33^n))"
+    },
+    {
+      "Q":"Jeder planare Graph mit n Knoten hat mindestens n-1 Kanten.",
+      "A":0,
+      "I":"(planar != zusammenhängend)"
+    },
+    {
+      "Q":"Jeder Graph besitzt einen planaren Teilgraphen.",
+      "A":1
+    },
+    {
+      "Q":"Für Bäume mit einer Mindesttiefe 3 liefern Breiten und Tiefensuche immer verschiedene Reihenfolgen.",
+      "A":0,
+      "I":"entarteter Baum --> gleiche Reihenfolge ( o-o-o-o )"
+    },
+    {
+      "Q":"Ein nicht notwendigerweise einfacher Pfad mit Länge k besteht aus zumindest k-1 verschiedenen Knoten.",
+      "A":0
+    },
+    {
+      "Q":"Jeder Graph der nur Blätter als Knoten hat besitzt eine gerade Anzahl von Knoten",
+      "A":1,
+      "I":"( o-o o-o o-o )"
+    },
+    {
+      "Q":"Für jeden Graphen mit einer ungeraden Anzahl von Knoten der regulär vom Grad r ist gilt, dass r gerade ist",
+      "A":1
+    },
+    {
+      "Q":"Die Summe aller Grade eines Graphen ist gerade",
+      "A":1
+    },
+    {
+      "Q":"Kein vollständiger Graph kann ein Wald sein",
+      "A":0
+    },
+    {
+      "Q":"Jeder planare Graph kann plan gezeichnet werden",
+      "A":1
+    },
+    {
+      "Q":"Jeder vollständige Graph mit zumindest 7 Knoten kann nicht plan dargestellt werden",
+      "A":1
+    },
+    {
+      "Q":"Die geometrische Version des MSB Problems für n Punkte kann in O(n log n) Zeit gelöst werden",
+      "A":1
+    },
+    {
+      "Q":"Das Problem der längsten gemeinsamen Teilfolge (lgT) kann mittels Scanline-Prinzip in linearer Zeit gelöst werden.",
+      "A":0,
+      "I":"lgT != Teilsummenproblem"
+    },
+    {
+      "Q":"Die Berechnung der konvexen Hülle von Punkten in der Ebene kann mittels iterativem Einfügens on-line aufgebaut werden, ohne den Erwartungswert für die Laufzeit zu verschlechtern.",
+      "A":0,
+      "I":"(Seite 51)"
+    },
+    {
+      "Q":"Beim Dynamischen Programmieren wird immer mehr Speicher benötigt als bei vergleichbaren rekursiven Lösungen.",
+      "A":0,
+      "I":"(Seite 24)"
+    },
+    {
+      "Q":"Für allgemeine Punktmengen ist das Problem der optimalen Triangulierung NP-Vollständig.",
+      "A":1
+    },
+    {
+      "Q":"Alle wohlformulierten Probleme sind entweder in P oder in NP.",
+      "A":0
+    },
+    {
+      "Q":"Beim Reduktionsbeweis wird das zu klassifizierende Problem auf ein bereits als NP-vollständig bekanntes Problem reduziert.",
+      "A":0
+    },
+    {
+      "Q":"Die Probleme TSP und MSB sind beide in NP.",
+      "A":0,
+      "I":"MSB O(m log n) (u.a. Seite 84)"
+    },
+    {
+      "Q":"Bei Randomisierten Suchbäumen für n Einträge garantieren die Haldenbedingung und das Balancierungsschema nach Prioritäten eine maximale Tiefe von Omega(log n).",
+      "A":0,
+      "I":"(Erwartungswert ja, aber keine Garantie!)"
+    },
+    {
+      "Q":"Die Master Methode kann erfolgreich auf alle rekursiven Zeitgleichungen der Form T(n) = nT(n/b) + f(n) angewandt werden.",
+      "A":0,
+      "I":"(Korrekt: T(n) = aT(n/b) + f(n))"
+    },
+    {
+      "Q":"Sowohl für konvexe als auch simple Polygone kann die optimale Triangulierung in O(n^3) Zeit berechnet werden.",
+      "A":1,
+      "I":"(Seite 55)"
+    },
+    {
+      "Q":"Ist ein Entscheidungsproblem NP-vollständig, dann auch das zugehörige Optimierungsproblem.",
+      "A":1
+    },
+    {
+      "Q":"Kann ein Optimierungsproblem in polynomialer Zeit gelöst werden, dann auch das zugehörige Entscheidungsproblem.",
+      "A":1
+    },
+    {
+      "Q":"Die Berechnung der Konvexen Hülle von n Punkten in der Ebene ist in NP.",
+      "A":1
+    },
+    {
+      "Q":"2SAT und 3SAT sind beide in NP.",
+      "A":0,
+      "I":"2SAT in linearer Zeit! (Seite 88)"
+    },
+    {
+      "Q":"Eine Exponentation x^n kann mit O(log n) Multiplikationen durchgeführt werden.",
+      "A":1,
+      "I":"(Seite 15)"
+    },
+    {
+      "Q":"Bei Randomisierten Suchbäumen für n paarweise verschiedene Einträge garantieren die Haldenbedingung und das Balancierungsschema nach Prioritäten eindeutige Bäume.",
+      "A":1
+    },
+    {
+      "Q":"Könnte man n Zahlen in linearer Zeit sortieren, so könnte man die konvexe Hülle von n Punkten in der Ebene in linearer Zeit berechnen.",
+      "A":1
+    },
+    {
+      "Q":"Zwischen n Liniensegmnten gibt es maximal (n(n-1))/2 Schnitte und existiert ein Beispiel, das diese Schranke genau erfüllt, ohne dass sich drei Segmente in einem Punkt schneiden.",
+      "A":1
+    },
+    {
+      "Q":"Alle Probleme in NP haben zumindest eine exponentielle untere Laufzeitschranke.",
+      "A":0
+    },
+    {
+      "Q":"Wenn man für ein zu klassifizierendes Problem zeigen kann, dass es aus der Klasse NP ist und es auf ein NP-vollständiges Problem reduziert, so beweist dies die NP-Vollständigkeit des zu klassifizierendes Problems.",
+      "A":0
+    },
+    {
+      "Q":"3SAT ist NP-vollständig, 2SAT hingegen kann in polynomialer Zeit gelöst werden.",
+      "A":1
+    },
+    {
+      "Q":"Entscheidungsprobleme können zum Lösen zugehöriger Optimierungsprobleme verwendet werden.",
+      "A":1
+    },
+    {
+      "Q":"Bei der Berechnung der konvexen Hülle durch randomisiertes iteratives Einfügen erhält man für 'gute' Punktverteilungen eine erwartete Laufzeit von O(n log n), für 'schlechte' Punktverteilungen entartet die Laufzeit jedoch auf O(n^2).",
+      "A":0,
+      "I":"(Seite 51, es gibt keine 'schlechte' P.V.)"
+    },
+    {
+      "Q":"NP ist die Abkürzung für 'Nicht Polynomial'",
+      "A":0
+    },
+    {
+      "Q":"Jedes NP-vollständige Problem A ist auf jedes NP-vollständige Problem A' polynomial reduzierbar.",
+      "A":1
+    },
+    {
+      "Q":"NP-vollständige Probleme sind die schwersten Probleme aller Probleme in NP.",
+      "A":1
+    },
+    {
+      "Q":"Alle Probleme in NP haben zumindest eine polynomiale untere Laufzeitschranke.",
+      "A":0
+    },
+    {
+      "Q":"Bipartite Graphen sind 3-färbbar.",
+      "A":1
+    },
+    {
+      "Q":"Für vollständige Graphen liefern Tiefen- und Breitensuche immer dieselbe Reihenfolge, wenn Nachbarn  in der Reihenfolge ihrer Indizes  abgeabreitet werden",
+      "A":1
+    },
+    {
+      "Q":"Bei einem simplen Kreis  ist die Anzahl der Kanten gleich der Anzahl verschiedener Knoten",
+      "A":1
+    },
+    {
+      "Q":"Ein Graph mit n Knoten, der regulär vom Grad r ist, besitzt genau (n * r / 2) Kanten.",
+      "A":1
+    },
+    {
+      "Q":"Ein Wald mit n Knoten besitzt maximal n-1 Kanten",
+      "A":1
+    },
+    {
+      "Q":"Die Summe aller Out-Valenzen eines gerichteten Graphen ist gerade",
+      "A":0
+    },
+    {
+      "Q":"Bäume sind dünne Graphen",
+      "A":1
+    },
+    {
+      "Q":"Simple Kreise sind immer 3färbbar",
+      "A":1
+    },
+    {
+      "Q":"Jeder Graph mit maximal 8 Kanten ist plättbar",
+      "A":1,
+      "I":"passt so laut bLind."
+    },
+    {
+      "Q":"Bei gewichteten Graphen ist der kürzeste Weg immer eindeutig, wenn die Kantengewichte unerschiedlich sind",
+      "A":0
+    },
+    {
+      "Q":"Weder Dijkstra noch Floyd-Warshall können zur Berechnung des kürzesten Weges verwendet werden, wenn negative Kantengewichte erlaubt sind.",
+      "A":0,
+      "I":"leider nicht sicher. Dijkstra ist kann 'nicht' für neg.Kanten verwendet werden. Floyd-Warshall schon, aber nicht, wenn negative Kreise vorkommen."
+    }
+  ]
+}

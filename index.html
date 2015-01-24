@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://schwerpunkt.philippharb.at/eaa/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>EAA Multiple Choice Trainer</title>
+    <script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="trainer.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="question">Bei Randomisierten Suchbäumen für n paarweise verschiedene Einträge garantieren die Haldenbedingung und das Balancierungsschema nach Prioritäten eindeutige Bäume.</div>
+    <div id="buttons">
+      <input id="buttontrue" type="button" onclick="javascript:trainer.check(1);" value="Wahr">
+      <input id="buttonfalse" type="button" onclick="javascript:trainer.check(0);" value="Falsch">
+      <input type="button" onclick="javascript:trainer.askquestion();" value="Weiter">
+      <input type="button" onclick="javascript:$(&#39;#stats&#39;).toggle();" value="ToggleStats">
+    </div>
+    <div id="error">|</div>
+    <div id="info">|</div>
+    <div id="debug"></div>
+    <hr>
+    <div id="stats">Stats: Answer a question!</div>
+
+<span style="font-size:10pt">
+<br>Forked from: <a href="https://schwerpunkt.philippharb.at/eaa" target="_blank">https://schwerpunkt.philippharb.at/eaa</a>
+<!-- my changes: improved JS -->
+</span>
+
+</body></html>
