@@ -1,0 +1,171 @@
+#question {
+	background-color: #C4E79A;
+	
+	border-color: #94C160;
+	border-style: solid;
+	border-width: 2px 2px 0px 2px;
+	border-radius: 10px 10px 10px 0;
+	
+	padding: 10px;
+	
+	color: #294D00;
+	font-family: serif;
+	font-size: 14;
+	text-align: left;
+	min-height: 75px;
+}
+
+input[type=button] {
+	display: inline-block;
+	background-color: #669999;
+	border-color: #407F7F;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 0 0 10px 10px;
+	margin: 0px;
+	
+	color: white;
+	font-weight: 500;
+	height: 30px;
+	min-width: 80px;
+	cursor: pointer;
+}
+
+input[type=button]:disabled {
+	background-color: #77aaaa;
+	border-color: #619F9F;
+}
+
+input[type=button]:enabled:hover {
+	background-color: #447777;
+	border-color: #306E6E;
+	cursor: hand;
+}
+
+input[type=button].selected {
+	border-color: #00EE00;
+}
+
+input[type=button].selected.false {
+	border-color: gold;
+	color: white;
+}
+
+input[type=button].false {
+	border-color: #00EE00;
+}
+
+#comment {
+	background-color: #E3FFC2;
+	padding: 10px;
+		
+	border-color: #C4E79A;
+	border-style: dotted;
+	border-width: 2px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+#resultCorrect{
+	color: #25921F;
+	font-weight: bold;
+}
+#resultIncorrect{
+	color: #940E0E;
+	font-weight: bold;
+}
+
+#commentInfo {
+	margin-left: 5px;
+	color: black;
+}
+
+#statsDiv {
+	display: flex;
+	padding: 5px;
+	margin-top: 2px;
+	margin-left: 5px;
+	height: 18px;
+	font-family: sans-serif;
+}
+
+#statsGood {
+	min-width: 2px;
+	width: 50px;
+	background: linear-gradient(to bottom, #eeeeee 0%,#C4E79A 3%, #C4E79A 98%, #000000 100%);	
+	border-radius: 0px 5px 5px 0px;
+	border-width: 2px 3px 2px 0px;
+	border-style: solid;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+#statsBad {
+	min-width: 2px;
+	width: 50px;
+	background: linear-gradient(to bottom, #eeeeee 0%,#E24444 3%,#E24444 98%, #800000 100%);
+	border-radius: 5px 0px 0px 5px;
+	border-width: 2px 0px 2px 3px;
+	border-style: solid;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+#buttonWrap {
+	display: flex;
+}
+
+.correctBracket {
+	color: #C4E79A;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#keyMap {
+	display: flex;
+}
+
+.keyArea {
+	text-align: center;
+	margin: 4px 7px 4px 8px;
+	padding: 1px;
+	background-color: #FFEBC2;
+	border-radius: 5px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.keyArea.editing {
+	font-weight: bold;
+	color: red;
+}
+
+.keycode {
+	padding-top: 1px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: middle; 
+}
+
+#changeMapping {
+	font-size: 80%;
+	cursor: pointer;
+	margin: 4px 7px 4px 8px;
+	padding: 1px;
+}
+
+#changeMapping:hover{
+	cursor: hand;
+}
+
+#pimpNote {
+	font-size: 75%;
+}
+
+#pimpNote .me {
+	color: green;
+	font-weight: bold;
+}
