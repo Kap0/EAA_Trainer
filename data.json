@@ -263,7 +263,7 @@
     {
       "Q":"Jeder Graph mit maximal 8 Kanten ist plättbar",
       "A":1,
-      "I":"passt so laut bLind."
+      "I":"Satz von Kuratowski sagt: Wenn K5 oder K3,3 nicht als Teilgraphen vorhanden sind, ist der Graph planar."
     },
     {
       "Q":"Bei gewichteten Graphen ist der kürzeste Weg immer eindeutig, wenn die Kantengewichte unerschiedlich sind",
