@@ -31,12 +31,16 @@ var trainer = {
     //every ~2nd question is (pretty) random. the others are randomly selected from the worst-n-questions
     if(Math.floor(Math.random()*2)){
       n = 5; //has to be smaller than number_of_questions
-      index = Math.floor(trainer.number_of_questions - n + Math.random()*n);
+      do {
+        index = Math.floor(trainer.number_of_questions - n + Math.random()*n);
+      } while (trainer.index === index);
     }
     else{
       // get random question (except one of the top n questions)
       n = 5; //has to be smaller than number_of_questions
-      index = Math.floor(n + Math.random()*(trainer.number_of_questions - n));
+      do {
+        index = Math.floor(n + Math.random()*(trainer.number_of_questions - n));
+      } while (trainer.index === index);
     }
 
     html = trainer.data.Fragen[index].Q;
