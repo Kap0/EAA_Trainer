@@ -270,6 +270,98 @@
       "A":0
     },
     {
+      "Q":"Für ein konvexes n-Eck existieren mindestens Omega(2^n) Triangulierungen.",
+      "A":1
+    },
+    {
+      "Q":"Mittels Scanline können die Schnitte von n Linien in der Ebene in O(n log n) Schritten gefunden werden.",
+      "A":0
+    },
+    {
+      "Q":"Könnte man die konvexe Hülle von n Punkten in der Ebene in linearer Zeit berechnen, so könnte man n Zahlen in linearer Zeit sortieren.",
+      "A":1
+    },
+    {
+      "Q":"Es existieren Verfahren die das Stringmatching-Problem unabhängig von der Alphabetgröße asymptotisch optimal lösen.",
+      "A":1
+    },
+    {
+      "Q":"Bei Randomisierten Suchbäumen für n Einträge garantieren die Haldenbedingung und das Balancierungsschema nach Prioritäten eindeutige Bäume.",
+      "A":1
+    },
+    {
+      "Q":"Die Weite un der Durchmesser einer Punktmenge in der Ebene kann in O(n log n) Zeit berechnet werden.",
+      "A":1
+    },
+    {
+      "Q":"Durch ANwendung der Methode 'Wellenberechnung' können geeignete Probleme mit Effizienz* > 1 parallelisiert werden.",
+      "A":0
+    },
+    {
+      "Q":"Das Maximum von n Zahlen lässt sich mit Theta(sqrt(n)) Prozessoren in O(sqrt(n)) Zeit berechnen.",
+      "A":1
+    },
+    {
+      "Q":"Das Minimum von n Zahlen lässt sich mit Theta(n) Prozessoren in O(log n) Zeit berechnen.",
+      "A":1
+    },
+    {
+      "Q":"Stehen 2^n Prozessoren zur Verfügung kann jedes Problem, das sich mit Effizienz 1 auf diese 2^n Prozessoren aufteilen lässt, in polynomialer Zeit gelöst werden.",
+      "A":0
+    },
+    {
+      "Q":"Die Kosten von parallelen Algorithmen die NP-vollständige Probleme lösen wachsen polynomial mit der Inputgröße.",
+      "A":0
+    },
+    {
+      "Q":"In einer Folge von n aufsteigend sortierten Zahlen kann ein beliebiger Wert x mit Theta(log n) Prozessoren in O(log n) Zeit gesucht werden.",
+      "A":1
+    },
+    {
+      "Q":"Alle n Präfixsummen von n Zahlen können mit Theta(n) Prozessoren in O(log n) Zeit berechnet werden.",
+      "A":1
+    },
+    {
+      "Q":"Triangulierungen von Punkten in der Ebene sind immer planare Graphen.",
+      "A":1
+    },
+    {
+      "Q":"Jeder Graph mit m <= 3n-6 Kanten ist planar.",
+      "A":0
+    },
+    {
+      "Q":"Jeder Graph ist 6-färbbar.",
+      "A":0
+    },
+    {
+      "Q":"Ein Graph mit n Knoten, der regulär vom Grad n-1 ist, ist nicht planar.",
+      "A":0
+    },
+    {
+      "Q":"Jeder planare bipartite Graph enthält eine gerade Anzahl von KANTEN.",
+      "A":0
+    },
+    {
+      "Q":"Jeder planare bipartite Graph enthält eine gerade Anzahl von KNOTEN.",
+      "A":0
+    },
+    {
+      "Q":"Jeder bipartite Graph enthält ausschließlich gerade Zyklen.",
+      "A":1
+    },
+    {
+      "Q":"Jeder zusammenhängende Graph mit n Knoten hat mindestens n-1 Kanten.",
+      "A":1
+    },
+    {
+      "Q":"Das geometrische Rundreiseproblem kann in polynomialer Zeit mit einem relativen Fehler 1 approximiert werden.",
+      "A":1
+    },
+    {
+      "Q":"Alle NP-vollständigen Probleme besitzen dieselbe asymptotische Laufzeit.",
+      "A":0
+    },
+    {
       "Q":"Weder Dijkstra noch Floyd-Warshall können zur Berechnung des kürzesten Weges verwendet werden, wenn negative Kantengewichte erlaubt sind.",
       "A":0,
       "I":"leider nicht sicher. Dijkstra ist kann 'nicht' für neg.Kanten verwendet werden. Floyd-Warshall schon, aber nicht, wenn negative Kreise vorkommen."
