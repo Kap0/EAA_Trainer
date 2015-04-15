@@ -170,7 +170,7 @@
       "A":1
     },
     {
-      "Q":"2SAT und 3SAT sind beide in NP.",
+      "Q":"2SAT und 3 SAT sind beide in NP.",
       "A":0,
       "I":"2SAT in linearer Zeit! (Seite 88)"
     },
