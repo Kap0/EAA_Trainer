@@ -385,7 +385,7 @@
     },
     {
       "Q":"Ein randomisierter Suchbaum ist unabhängig von der Einfüge-Reihenfolge eindeutig.",
-      "A":1,
+      "A":1
     },
     {
       "Q":"Bei einem gut balancierten (randomisierten) Baum, stehen ungefähr die Hälfte der Werte im untersten Niveau (Blätter).",
