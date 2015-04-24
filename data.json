@@ -178,7 +178,8 @@
     },
     {
       "Q":"Die Berechnung der Konvexen Hülle von n Punkten in der Ebene ist in NP.",
-      "A":1
+      "A":0,
+			"I":"Die konvexe Hülle von n Punkten in der Ebene kann (durch randomisiertes Einfügen) in O(n log n) erwarteter Zeit und O(n) Speicher berechnet werden. (Seite 48 und 51)"
     },
     {
       "Q":"2SAT und 3SAT sind beide in NP.",
