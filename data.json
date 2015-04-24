@@ -41,8 +41,8 @@
     },
     {
       "Q":"Die Darstellung planarer Graphen kann Kreuzungen enthalten.",
-      "A":0
-	  "I":"Ein Graph heißt planar, wenn er in der (Zeichen-) Ebene ohne Überschneidungen (kreuzungsfrei) dargestellt werden kann. (Seite 69)"
+      "A":0,
+	   "I":"Ein Graph heißt planar, wenn er in der (Zeichen-) Ebene ohne Überschneidungen (kreuzungsfrei) dargestellt werden kann. (Seite 69)"
     },
     {
       "Q":"Eine nicht plane Darstellung eines Graphen heißt plättbar, wenn sie zu einem planaren Graphen isomorph ist.",
@@ -50,8 +50,8 @@
 	},
     {
       "Q":"Ein plättbarer Graphen kann Kreuzungen enthalten.",
-      "A":1
-	  "I":"Eine nicht plane Darstellung eines Graphen heißt plättbar, wenn sie zu einem planaren Graphen isomorph ist. (Seite 69)"
+      "A":1,
+	    "I":"Eine nicht plane Darstellung eines Graphen heißt plättbar, wenn sie zu einem planaren Graphen isomorph ist. (Seite 69)"
     },
     {
       "Q":"Ein randomisierter Suchbaum kann online aufgebaut werden, ohne den Erwartungswert für die Laufzeit zu verschlechtern.",
@@ -106,8 +106,8 @@
     },
     {
       "Q":"Kein vollständiger Graph kann ein Wald sein",
-      "A":0
-	  "I":"Ein azyklischer (wenn er keine nichttrivialen einfachen Kreise enthält), ungerichteter Graph heißt Wald. Ein azyklischer, ungerichteter zusammenhängender Graph heißt Baum."
+      "A":0,
+	    "I":"Ein azyklischer (wenn er keine nichttrivialen einfachen Kreise enthält), ungerichteter Graph heißt Wald. Ein azyklischer, ungerichteter zusammenhängender Graph heißt Baum."
     },
     {
       "Q":"Jeder planare Graph kann plan gezeichnet werden",
@@ -338,8 +338,8 @@
     },
     {
       "Q":"Jeder Graph mit m <= 3n-6 Kanten ist planar. (m...Kanten, n...Knoten)",
-      "A":0
-	  "I":"Man muss auch noch den Satz von Kuratowski beachten, da K3,3 folgendes ergibt 9<=12, aber nicht planar ist. (Seite 70)"
+      "A":0,
+	    "I":"Man muss auch noch den Satz von Kuratowski beachten, da K3,3 folgendes ergibt 9<=12, aber nicht planar ist. (Seite 70)"
     },
     {
       "Q":"Jeder Graph ist 6-färbbar.",
