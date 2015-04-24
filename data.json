@@ -41,7 +41,17 @@
     },
     {
       "Q":"Die Darstellung planarer Graphen kann Kreuzungen enthalten.",
+      "A":0
+	  "I":"Ein Graph heißt planar, wenn er in der (Zeichen-) Ebene ohne Überschneidungen (kreuzungsfrei) dargestellt werden kann. (Seite 69)"
+    },
+    {
+      "Q":"Eine nicht plane Darstellung eines Graphen heißt plättbar, wenn sie zu einem planaren Graphen isomorph ist.",
       "A":1
+	},
+    {
+      "Q":"Ein plättbarer Graphen kann Kreuzungen enthalten.",
+      "A":1
+	  "I":"Eine nicht plane Darstellung eines Graphen heißt plättbar, wenn sie zu einem planaren Graphen isomorph ist. (Seite 69)"
     },
     {
       "Q":"Ein randomisierter Suchbaum kann online aufgebaut werden, ohne den Erwartungswert für die Laufzeit zu verschlechtern.",
@@ -97,6 +107,7 @@
     {
       "Q":"Kein vollständiger Graph kann ein Wald sein",
       "A":0
+	  "I":"Ein azyklischer (wenn er keine nichttrivialen einfachen Kreise enthält), ungerichteter Graph heißt Wald. Ein azyklischer, ungerichteter zusammenhängender Graph heißt Baum."
     },
     {
       "Q":"Jeder planare Graph kann plan gezeichnet werden",
@@ -170,7 +181,7 @@
       "A":1
     },
     {
-      "Q":"2SAT und 3 SAT sind beide in NP.",
+      "Q":"2SAT und 3SAT sind beide in NP.",
       "A":0,
       "I":"2SAT in linearer Zeit! (Seite 88)"
     },
@@ -326,8 +337,9 @@
       "A":1
     },
     {
-      "Q":"Jeder Graph mit m <= 3n-6 Kanten ist planar.",
+      "Q":"Jeder Graph mit m <= 3n-6 Kanten ist planar. (m...Kanten, n...Knoten)",
       "A":0
+	  "I":"Man muss auch noch den Satz von Kuratowski beachten, da K3,3 folgendes ergibt 9<=12, aber nicht planar ist. (Seite 70)"
     },
     {
       "Q":"Jeder Graph ist 6-färbbar.",
@@ -338,11 +350,11 @@
       "A":0
     },
     {
-      "Q":"Jeder planare bipartite Graph enthält eine gerade Anzahl von KANTEN.",
+      "Q":"Jeder planare bipartite Graph enthält eine gerade Anzahl von Kanten.",
       "A":0
     },
     {
-      "Q":"Jeder planare bipartite Graph enthält eine gerade Anzahl von KNOTEN.",
+      "Q":"Jeder planare bipartite Graph enthält eine gerade Anzahl von Knoten.",
       "A":0
     },
     {
@@ -365,6 +377,30 @@
       "Q":"Weder Dijkstra noch Floyd-Warshall können zur Berechnung des kürzesten Weges verwendet werden, wenn negative Kantengewichte erlaubt sind.",
       "A":0,
       "I":"leider nicht sicher. Dijkstra ist kann 'nicht' für neg.Kanten verwendet werden. Floyd-Warshall schon, aber nicht, wenn negative Kreise vorkommen."
+    },
+    {
+      "Q":"Ein vollständiger Graph mit max. 6 Kanten ist planar?",
+      "A":1,
+      "I":"Vollständiger Graph mit max 6 Kanten ist K4 und der Satz von Kuratowski besagt, wenn K5 oder K3,3 topologischen Minor enthält --> planar."
+    }
+    {
+      "Q":"Ein randomisierter Suchbaum ist unabhängig von der Einfüge-Reihenfolge eindeutig.",
+      "A":1,
+    },
+    {
+      "Q":"Bei einem gut balancierten (randomisierten) Baum, stehen ungefähr die Hälfte der Werte im untersten Niveau (Blätter).",
+      "A":1,
+      "I":"Bei einem vollem Baum sind genau die Hälfte aller Knoten Blätter. (Seite 34)"
+    },
+    {
+      "Q":"Bei Randomisierten Suchbäumen für n Einträge ist der Erwartungswert für die Tiefe Omega(log n).",
+      "A":1,
+      "I":"(Erwartungswert ja, aber keine Garantie!)"
+    },
+    {
+      "Q":"Wörterbuchoperationen bei einem randomisierten Suchbaum können garantiert je in O(log n) Zeit durchgeführt werden.",
+      "A":0,
+      "I":"Mit hoher Wahrscheinlichkeit ja, aber keine Garantie. (Seite 34)"
     }
   ]
 }
