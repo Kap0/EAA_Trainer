@@ -47,7 +47,7 @@
     {
       "Q":"Eine nicht plane Darstellung eines Graphen heißt plättbar, wenn sie zu einem planaren Graphen isomorph ist.",
       "A":1
-	},
+	  },
     {
       "Q":"Ein plättbarer Graphen kann Kreuzungen enthalten.",
       "A":1,
@@ -382,7 +382,7 @@
       "Q":"Ein vollständiger Graph mit max. 6 Kanten ist planar?",
       "A":1,
       "I":"Vollständiger Graph mit max 6 Kanten ist K4 und der Satz von Kuratowski besagt, wenn K5 oder K3,3 topologischen Minor enthält --> planar."
-    }
+    },
     {
       "Q":"Ein randomisierter Suchbaum ist unabhängig von der Einfüge-Reihenfolge eindeutig.",
       "A":1,
