@@ -287,7 +287,8 @@
     },
     {
       "Q":"Mittels Scanline können die Schnitte von n Linien in der Ebene in O(n log n) Schritten gefunden werden.",
-      "A":0
+      "A":0,
+      "I":"(Seite 42-> O((n+k) log n)"
     },
     {
       "Q":"Könnte man die konvexe Hülle von n Punkten in der Ebene in linearer Zeit berechnen, so könnte man n Zahlen in linearer Zeit sortieren.",
